@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe Anim</title>
+    <style>
+			body { 
+        margin: 0 auto; 
+        -webkit-font-smoothing: antialiased;
+        background-color: black;
+      }
+
+      .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        height: 100rem;
+      }
+
+      .wflex {
+        width: 50%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        background-color: black;
+        color: white;
+      }
+
+      .wflex h1 {
+        font-size: 8rem;
+      }
+
+      .wflex p {
+        font-size: 4rem;
+        opacity: 0.5;
+      }
+
+      .a {
+        width: 20rem;
+        height: 6rem;
+        font-size: 3rem;
+        background-color: rgb(74, 148, 74);
+        display: inline;
+        text-align: center;
+        margin-top: 2rem;
+        border: 2px transparent;
+        border-radius: 3rem;
+      }
+
+      .w {
+        width: 50%; 
+      }
+		</style>
+  </head>
+  <body class>
+    <div class="flex">
+      <div class="wflex">
+        <h1>CHALLENGING THE STANDARD OF SPACE EXPLORATION</h1>
+        <p>Millions of developers and companies build, ship, and maintain their software on GitHub-the largest and most advanced development platform in the world</p>
+        <div class="a">
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="w" id="canvasContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
