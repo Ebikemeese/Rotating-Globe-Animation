@@ -33,4 +33,4 @@ An immersive, real-time **3D globe animation** powered by **Three.js**, **GLSL s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Rotating-Globe-Animation.git
+   https://github.com/Ebikemeese/Rotating-Globe-Animation.git
